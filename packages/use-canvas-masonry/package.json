@@ -1,6 +1,6 @@
 {
   "name": "use-canvas-masonry",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "60fps infinite canvas with masonry layout and viewport virtualization",
   "keywords": [
     "react",
