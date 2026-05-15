@@ -24,7 +24,8 @@
   "scripts": {
     "build": "tsup",
     "typecheck": "tsc --noEmit",
-    "dev": "tsup --watch"
+    "dev": "tsup --watch",
+    "prepublishOnly": "cp ../../README.md ./README.md"
   },
   "peerDependencies": {
     "react": ">=18"
