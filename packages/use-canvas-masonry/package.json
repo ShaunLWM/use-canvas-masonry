@@ -1,8 +1,16 @@
 {
   "name": "use-canvas-masonry",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "60fps infinite canvas with masonry layout and viewport virtualization",
-  "keywords": ["react", "canvas", "masonry", "infinite", "pan", "zoom", "virtualization"],
+  "keywords": [
+    "react",
+    "canvas",
+    "masonry",
+    "infinite",
+    "pan",
+    "zoom",
+    "virtualization"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -24,7 +32,9 @@
       }
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "typecheck": "tsc --noEmit",
