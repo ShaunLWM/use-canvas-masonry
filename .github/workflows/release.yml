@@ -55,8 +55,6 @@ jobs:
       - name: Publish to npm
         working-directory: packages/use-canvas-masonry
         run: pnpm publish --no-git-checks --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Commit, tag, and push
         run: |

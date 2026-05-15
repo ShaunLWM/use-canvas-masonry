@@ -4,6 +4,10 @@
   "description": "60fps infinite canvas with masonry layout and viewport virtualization",
   "keywords": ["react", "canvas", "masonry", "infinite", "pan", "zoom", "virtualization"],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShaunLWM/use-canvas-masonry"
+  },
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
