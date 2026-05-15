@@ -63,7 +63,8 @@ jobs:
           git add packages/use-canvas-masonry/package.json
           git commit -m "chore: release v${{ steps.bump.outputs.version }}"
           git tag "v${{ steps.bump.outputs.version }}"
-          git push --follow-tags
+          git push origin HEAD:main
+          git push origin "v${{ steps.bump.outputs.version }}"
 
       - name: Create GitHub release
         run: |
