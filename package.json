@@ -10,5 +10,8 @@
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "typescript": "^5.4.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["@biomejs/biome", "esbuild"]
   }
 }
