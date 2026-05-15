@@ -1,0 +1,14 @@
+{
+  "name": "use-canvas-masonry-workspace",
+  "private": true,
+  "scripts": {
+    "build": "pnpm --filter use-canvas-masonry build",
+    "dev": "pnpm --filter demo dev",
+    "typecheck": "pnpm --filter use-canvas-masonry typecheck",
+    "lint": "biome check packages/"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "typescript": "^5.4.0"
+  }
+}
